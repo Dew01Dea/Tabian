@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+# ระบบคิวรับบริการงานทะเบียน
+
+## Team Charter
+
+### เป้าหมายของโครงงาน
+พัฒนาระบบจองคิวรับบริการงานทะเบียน
+เพื่อให้นักศึกษาสะดวกในการขอเอกสาร
+
+### สมาชิกและหน้าที่
+1. นายดุรงค์กร สุวรรณประเสริฐ
+   - พัฒนา API และฝั่ง Server
+
+2. นายธราเทพ สีทอง
+   - ดูแลฐานข้อมูล ทดสอบระบบ และจัดทำเอกสาร
+
+### ข้อตกลงการทำงาน
+- แบ่งหน้าที่ให้ชัดเจน
+- ช่วยกันตรวจสอบและทดสอบระบบ
+- บันทึกการเปลี่ยนแปลงโค้ดผ่าน GitHub
+>>>>>>> 79daf2641d33a01bc5dad25ea8ecd8f2b5550556
