@@ -22,6 +22,24 @@ app.get('/project', (req, res) => {
   res.json(project);
 });
 
+app.get('/members/:id', (req, res) => {
+  const id = Number(req.params.id);                  // /members/2 ได้ id = 2
+  const member = members.find((m) => m.id === id);   // หาสมาชิกที่ id ตรงกัน
+  if (!member) {                                     // ถ้าหาไม่พบ
+    return res.status(404).json({ message: 'Member not found' });
+  }
+  res.json(member);
+});
+
+app.get('/ideas', (req, res) => {
+  res.json({
+    message: 'Tabian Ideas',
+    ideas: [
+      { id: 1, title: 'Idea A' },
+      { id: 2, title: 'Idea B' },
+    ],
+  });
+});
 
 app.listen(3000, () => {
   console.log('Server running on http://localhost:3000');
