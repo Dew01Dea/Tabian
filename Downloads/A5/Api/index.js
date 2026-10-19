@@ -22,6 +22,10 @@ app.get('/project', (req, res) => {
   res.json(project);
 });
 
+app.get('/members', (req, res) => {
+  res.status(200).json(members);
+});
+
 app.get('/members/:id', (req, res) => {
   const id = Number(req.params.id);                  // /members/2 ได้ id = 2
   const member = members.find((m) => m.id === id);   // หาสมาชิกที่ id ตรงกัน
